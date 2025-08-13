@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asquare</title>
+  <link rel="icon" type="image/x-icon" href="../media/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/android.css">
+</head>
+<body class="contact-body">
+  <header>
+    <div class="header-container">
+      <button class="openbtn" onclick="openNav()">☰</button>
+      <div class="txt-containerr">
+        <span class="txt-head">Asquare</span>
+      </div>
+    </div>
+    <div id="mySidepanel" class="sidepanel">
+      <div><img src="../media/logo.png" class="android_menu_logo"></div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="../index.html" onclick="closeNavOnClick()">Home</a>
+      <a href="./about.html" onclick="closeNavOnClick()">About</a>
+      <a href="./services.html" onclick="closeNavOnClick()">Services</a>
+      <a href="./blog.html" onclick="closeNavOnClick()">Blog</a>
+      <a href="./contact.html" onclick="closeNavOnClick()">Contact Us</a>
+    </div>
+    <div class="header-bottom">
+      <div class="logo">
+        <img src="../media/logo1.png" alt="Company Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./services.html">SERVICES</a></li>
+          <li><a href="./blog.html">BLOG</a></li>
+          <li><a href="./contact.html" class="active">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="contact-header">
+    <p class="contacter">Contact Us</p>
+    <br>
+    <div class="contact-message">
+      Want to craft something <br> unforgettable, <span class="underline highlight">collaborate with us</span>, 
+      <p><span class="underline highlight"></span>  or simply reach out?</p>
+      Let’s make magic happen together!<br>
+       We'd love to hear from you.
+  </div>
+</div>
+  <section class="contact-section">
+    <div class="contact-container">
+      <form class="contact-form" id="contactForm">
+        <h2>Get in Touch</h2>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your full name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="email@example.com">
+        </div>
+        <div class="form-group">
+          <label>What service are you interested in?</label>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="service" value="photography"> Photography</label>
+            <label><input type="checkbox" name="service" value="videography"> Videography</label>
+            <label><input type="checkbox" name="service" value="e-content"> E-content</label>
+            <label><input type="checkbox" name="service" value="designing"> Designing</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Can you tell us a bit more about what you're expecting?</label>
+          <textarea id="message" name="message" required placeholder="Please type your message here..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <img src="../media/logo1.png" alt="Logo" class="footer-logo">
+        <p>A Natural Square is your premier destination for comprehensive creative solutions. We specialize in branding design, photography, cinematography, and digital content creation.</p>
+       
+      </div>
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Ulsoor, Bangalore - 08</p>
+        <p><i class="fas fa-phone"></i> +91 70229 03449</p>
+        <p><i class="fas fa-envelope"></i> musicwithabishek@gmail.com</p>
+      </div>
+      <div class="footer-section social-icon">
+        <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 A Natural Square. All rights reserved.</p>
+    </div>
+    <div class="footer-shape footer-shape-1"></div>
+    <div class="footer-shape footer-shape-2"></div>
+  </footer>
+
+  <script src="../js/index.js"></script>
+  <script src="../js/android.js"></script>
+
+</body>
+
+</html>

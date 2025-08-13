@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asquare</title>
+  <link rel="icon" type="image/x-icon" href="../media/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/android.css">
+
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <button class="openbtn" onclick="openNav()">☰</button>
+      <div class="txt-containerr">
+        <span class="txt-head">Asquare</span>
+      </div>
+    </div>
+    <div id="mySidepanel" class="sidepanel">
+      <div><img src="../media/logo.png" class="android_menu_logo"></div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="../index.html" onclick="closeNavOnClick()">Home</a>
+      <a href="./about.html" onclick="closeNavOnClick()">About</a>
+      <a href="./services.html" onclick="closeNavOnClick()">Services</a>
+      <a href="./blog.html" onclick="closeNavOnClick()">Blog</a>
+      <a href="./contact.html" onclick="closeNavOnClick()">Contact Us</a>
+    </div>
+    <div class="header-bottom">
+      <div class="logo">
+        <img src="../media/logo1.png" alt="Company Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./services.html">SERVICES</a></li>
+          <li><a href="./blog.html" class="active">BLOG</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <body class="blog-post-body">
+    <main class="blog-post">
+        <h1 id="post-title"></h1>
+        <img id="post-image" alt="Blog Post Image">
+        <div id="post-content">
+          <!-- Blog post content will be inserted here -->
+        </div>
+        <div class="post-navigation">
+          <a href="#" id="prev-post" class="nav-button"><i class="fas fa-caret-left"></i> Previous</a>
+          <a href="#" id="next-post"  class="nav-button">Next <i class="fas fa-caret-right"></i></a>
+        </div>
+       
+      </main>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <img src="../media/logo1.png" alt="Logo" class="footer-logo">
+        <p>A Natural Square is your premier destination for comprehensive creative solutions. We specialize in branding design, photography, cinematography, and digital content creation.</p>
+       
+      </div>
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Ulsoor, Bangalore - 08</p>
+        <p><i class="fas fa-phone"></i> +91 70229 03449</p>
+        <p><i class="fas fa-envelope"></i> musicwithabishek@gmail.com</p>
+      </div>
+      <div class="footer-section social-icon">
+        <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 A Natural Square. All rights reserved.</p>
+    </div>
+    <div class="footer-shape footer-shape-1"></div>
+    <div class="footer-shape footer-shape-2"></div>
+  </footer>
+
+  <script src="../js/index.js"></script>
+  <script>
+
+
+
+const blogPosts = [
+{
+        id: 1,
+        title: "The Art of Visual Storytelling in Brand Design",
+        content: "In the world of brand design, every color, shape, and font tells a story. At A Natural Square, we believe in the power of visual storytelling to create brand identities that resonate deeply with audiences. Our approach combines innovative design techniques with a deep understanding of consumer psychology...",
+        image: "../media/brand.jpeg"
+      },
+      {
+        id: 2,
+        title: "Capturing Moments: The Magic of Event Photography",
+        content: "Event photography is more than just pointing and shooting. It's about anticipating moments, understanding light, and capturing the essence of an occasion. Our team of skilled photographers brings years of experience to every event, ensuring that no special moment goes unrecorded...",
+        image: "../media/photography.jpeg"
+      },
+      {
+        id: 3,
+        title: "The Power of Video: Elevating Your Brand's Message",
+        content: "In today's fast-paced digital world, video content reigns supreme. Our videography team specializes in creating compelling visual narratives that capture attention and drive engagement. From concept to final cut, we work closely with our clients to ensure that every frame serves the brand's message...",
+        image: "../media/videog.jpeg"
+      },
+      {
+        id: 4,
+        title: "Crafting Digital Narratives: The Art of E-Content",
+        content: "E-content is the lifeblood of digital marketing. Our team of content creators and strategists work tirelessly to produce engaging, shareable content that resonates with your target audience. From snappy social media posts to in-depth blog articles, we tailor our approach to fit your brand's unique voice...",
+        image: "../media/e-content.jpeg"
+      },
+      {
+        id: 5,
+        title: "The Evolution of Digital Marketing",
+        content: "Digital marketing has come a long way since the early days of the internet. From simple banner ads to sophisticated AI-driven campaigns, the landscape is constantly evolving. Our team stays at the forefront of these changes, leveraging the latest technologies and strategies to keep our clients ahead of the curve...",
+        image: "../media/marketing.jpeg"
+      },
+      {
+        id: 6,
+        title: "The Importance of User Experience in Web Design",
+        content: "In today's digital landscape, user experience (UX) is more important than ever. A well-designed website not only looks good but also provides a seamless, intuitive experience for visitors. Our web design team focuses on creating sites that not only capture attention but also guide users effortlessly towards their goals...",
+        image: "../media/programming.jpeg"
+      }
+        ];
+
+    function getPostIdFromUrl() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return parseInt(urlParams.get('id'));
+    }
+
+    function displayPost(postId) {
+      const post = blogPosts.find(p => p.id === postId);
+      if (post) {
+        document.getElementById('post-image').src = post.image;
+        document.getElementById('post-title').textContent = post.title;
+        document.getElementById('post-content').innerHTML = `<p>${post.content}</p>`;
+        
+        const prevPost = document.getElementById('prev-post');
+        const nextPost = document.getElementById('next-post');
+        
+        prevPost.href = `blog-post.html?id=${postId > 1 ? postId - 1 : blogPosts.length}`;
+        nextPost.href = `blog-post.html?id=${postId < blogPosts.length ? postId + 1 : 1}`;
+      }
+    }
+
+    window.onload = function() {
+      const postId = getPostIdFromUrl();
+      displayPost(postId);
+    };
+
+
+ 
+  </script>
+    <script src="../js/android.js"></script>
+
+</body>
+
+</html>

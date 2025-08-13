@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asquare</title>
+  <link rel="icon" type="image/x-icon" href="media/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/android.css">
+</head>
+<body>
+ <div class="android" >
+   Android - Not Activated
+   </div>
+
+  <div class="web">
+  <header>
+    <div class="header-container">
+      <button class="openbtn" onclick="openNav()">☰</button>
+      <div class="txt-containerr">
+        <span class="txt-head">Asquare</span>
+      </div>
+    </div>
+    <div id="mySidepanel" class="sidepanel">
+      <div><img src="media/logo.png" class="android_menu_logo"></div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="../index.html" onclick="closeNavOnClick()">Home</a>
+      <a href="./Template/about.html" onclick="closeNavOnClick()">About</a>
+      <a href="./Template/services.html" onclick="closeNavOnClick()">Services</a>
+      <a href="./Template/blog.html" onclick="closeNavOnClick()">Blog</a>
+      <a href="./Template/contact.html" onclick="closeNavOnClick()">Contact Us</a>
+    </div>
+
+    <div class="header-bottom">
+      <div class="logo">
+        <img src="media/logo1.png" alt="Company Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="./Template/about.html">ABOUT</a></li>
+          <li><a href="./Template/services.html">SERVICES</a></li>
+          <li><a href="./Template/blog.html">BLOG</a></li>
+          <li><a href="./Template/contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="home-section">
+    <div class="home_container">
+      <img src="media/studio2.jpg" alt="Background Image">
+      <div class="center">
+        <h1>A Natural Square</h1>
+        <p>One Stop Solution for all your creative needs!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="about-container">
+      <div class="video-container">
+        <video id="myVideo" autoplay loop muted controlsList="nodownload">
+          <source src="media/aboutvd.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="content-container">
+        <h2>ABOUT US</h2>
+        <p>A Natural Square is your premier destination for comprehensive creative
+          solutions. Specializing in branding design, photography, cinematography, and
+          a wide array of digital content, we are dedicated to bringing your vision to life.
+          <br><br>
+          Our team of experts seamlessly integrates creativity and innovation to deliver
+          exceptional results tailored to your brand's unique identity. Whether you need
+          captivating visuals, compelling narratives, or dynamic digital content, A
+          Natural Square is here to elevate your brand to new heights.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="values-section">
+    <h2 class="section-title">Values We Hold</h2>
+    <div class="value-container">
+      <div class="value-cards">
+        <div class="val-card">
+          <h2><i class="fas fa-eye"></i> Vision</h2>
+          <p>To be a global leader in creative solutions, continuously innovating and setting new standards in design,
+            photography, cinematography, and digital content, while empowering brands to achieve their fullest potential.
+          </p>
+        </div>
+        <div class="val-card">
+          <h2><i class="fas fa-bullseye"></i> Mission</h2>
+          <p>Our mission is to deliver exceptional and comprehensive creative services that resonate with our clients'
+            unique identities. We strive to blend creativity, technology, and passion to produce visually compelling and
+            impactful content, fostering strong and lasting relationships with our clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section">
+    <h2 class="section-title">Our Services</h2>
+    <div class="service-container">
+      <div class="shape shape1">
+        <h2>Designing</h2>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <div class="shape shape2">
+        <h2>Photography</h2>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <div class="shape shape3">
+        <h2>Videography</h2>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <div class="shape shape4">
+        <h2>E-content</h2>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <i class="fas fa-music music-icon icon1"></i>
+      <i class="fas fa-palette music-icon icon2"></i>
+      <i class="fas fa-camera music-icon icon3"></i>
+      <i class="fas fa-film music-icon icon4"></i>
+      <i class="fas fa-headphones music-icon icon5"></i>
+      <i class="fas fa-microphone music-icon icon6"></i>
+    </div>
+  </section>
+
+  <section id="goals" class="goals-section">
+    <h2 class="section-title">Goals To Achieve</h2>
+    <div class="goals-container">
+      <div class="goals-card">
+        <img src="media/g1.jpg" alt="Image 1">
+        <h2>Innovate With Technology</h2>
+        <div class="goals-description">
+          <p>Invest in the latest technologies and tools to stay at the forefront of
+            the creative industry, ensuring we deliver cutting-edge solutions to
+            our clients.</p>
+        </div>
+      </div>
+      <div class="goals-card">
+        <img src="media/g2.jpg" alt="Image 2">
+        <h2>Global presence</h2>
+        <div class="goals-description">
+          <p>Establish a stronger international presence by entering new markets
+            and forming strategic partnerships worldwide, expanding our reach
+            and influence</p>
+        </div>
+      </div>
+      <div class="goals-card">
+        <img src="media/g3.jpg" alt="Image 3">
+        <h2>Client Satisfaction</h2>
+        <div class="goals-description">
+          <p>Maintain a high level of client satisfaction through personalized
+            service, attention to detail, and outstanding results, building long lasting relationships with our clients.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="team-container">
+        <h2 class="section-title">Our Team</h2>
+        <div class="team-member" style="animation-delay: 0.1s;">
+            <div class="member-image">
+                <img src="media/t1.png" alt="Abishek M">
+            </div>
+            <div class="line-decoration"></div>
+            <div class="member-info">
+                <h3 class="member-name">ABISHEK M</h3>
+                <p class="member-role">Founder & CEO</p>
+                <p class="member-bio">Visionary leader with a passion for creative solutions, driving innovation in the creative industry.</p>
+            </div>
+        </div>
+        <div class="team-member" style="animation-delay: 0.2s;">
+            <div class="member-image">
+                <img src="media/t2.png" alt="Ben Nicholas Tarus">
+            </div>
+            <div class="line-decoration"></div>
+            <div class="member-info">
+                <h3 class="member-name">BEN NICHOLAS TARUS</h3>
+                <p class="member-role">Head of Designing and Editing</p>
+                <p class="member-bio">Creative genius bringing ideas to life through cutting-edge design and seamless editing techniques.</p>
+            </div>
+        </div>
+        <div class="team-member" style="animation-delay: 0.3s;">
+            <div class="member-image">
+                <img src="media/t3.png" alt="Shreyas P">
+            </div>
+            <div class="line-decoration"></div>
+            <div class="member-info">
+                <h3 class="member-name">SHREYAS P</h3>
+                <p class="member-role">Head of Cinematography</p>
+                <p class="member-bio">Capturing moments and telling compelling stories through the lens, creating visual masterpieces.</p>
+            </div>
+        </div>
+        <div class="team-member" style="animation-delay: 0.4s;">
+            <div class="member-image">
+                <img src="media/t4.png" alt="Andrew Jonnaes">
+            </div>
+            <div class="line-decoration"></div>
+            <div class="member-info">
+                <h3 class="member-name">ANDREW JONNAES</h3>
+                <p class="member-role">Head of Photography</p>
+                <p class="member-bio">Expert in creating stunning visual imagery, pushing the boundaries of photographic art.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="login-popup" id="loginPopup">
+  <span class="close-btn" onclick="closeLoginPopup()">&times;</span>
+  <div class="login-form">
+      <h2>Admin Login</h2>
+      <form>
+          <input type="email" id="l_email" placeholder="Email" required>
+          <input type="password" id="l_pass" placeholder="Password" required>
+          <button type="submit" onclick="logintoaccount()">Login</button>
+      </form>
+  </div>
+</div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <img src="media/logo1.png" alt="Logo" class="footer-logo">
+        <p>A Natural Square is your premier destination for comprehensive creative solutions. We specialize in branding design, photography, cinematography, and digital content creation.</p>
+       
+      </div>
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="./Template/about.html">About Us</a></li>
+          <li><a href="./Template/services.html">Services</a></li>
+          <li><a href="./Template/blog.html">Blog</a></li>
+          <li><a href="./Template/contact.html">Contact</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Ulsoor, Bangalore - 08</p>
+        <p><i class="fas fa-phone"></i> +91 23145 03768</p>
+        <p><i class="fas fa-envelope"></i> musicwithsarah@gmail.com</p>
+      </div>
+      <div class="footer-section social-icon">
+        <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 A Natural Square. All rights reserved.</p>
+    </div>
+    <div class="footer-shape footer-shape-1"></div>
+    <div class="footer-shape footer-shape-2"></div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebse-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebse-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script src="js/connection.js"></script>
+<script src="js/checkpermission.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/android.js"></script>
+
+</div>
+</body>
+</html>
