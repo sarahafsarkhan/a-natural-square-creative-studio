@@ -20,4 +20,4 @@ It features informative sections, captivating visuals, and a responsive design f
 - HTML5
 - CSS3
 - JavaScript
-- <img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/25b10f66-70d3-4f5c-b767-50e0869adff7" />
+ <img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/25b10f66-70d3-4f5c-b767-50e0869adff7" />
