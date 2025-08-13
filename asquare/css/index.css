@@ -1544,7 +1544,7 @@ font-weight: bold;
   text-align: center;
   font-size: 1.1em;
   margin-bottom: 0.625rem;
-  margin-left: -826px;
+  margin-left: -866px;
   margin-top: 7.8125rem;
   color: white;
 }
@@ -1563,7 +1563,7 @@ font-weight: bold;
   font-size: 3.1em;
   margin-bottom: 14.5rem;
   color: #c3750b;
-  margin-right: 45%;
+  margin-right: 46.5%;
 }
 
 .section {
@@ -1613,6 +1613,7 @@ font-weight: bold;
   margin-top: 1.4375rem;
   margin-left: 6.5rem;
   color: white;
+  
 }
 
 .section .section-heading,
@@ -1631,15 +1632,15 @@ font-weight: bold;
 
 .section .section-heading,
 .section .section-heading1 {
-  margin-left: -1.375rem;
+  margin-left: -4.100rem;
 }
 
 .section .section-heading-alt {
-  margin-left: -5.1875rem;
+  margin-left: -7.1875rem;
 }
 
 .section .section-heading-alt1 {
-  margin-left: -5.75rem;
+  margin-left: -7.75rem;
 }
 
 .section-divider1,
@@ -1694,6 +1695,7 @@ font-weight: bold;
   .text-heading-econtent,
   .text-heading-designing {
     margin-left: 5%;
+    
   }
 
   .section-divider1,
